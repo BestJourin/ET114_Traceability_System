@@ -1,0 +1,7 @@
+sudo apt install sqlite3
+
+sqlite3
+
+.open et114.db
+
+CREATE TABLE IF NOT EXISTS COMPANY(id                   TEXT     NOT NULL,support_plate        INT    NOT NULL,beam                 INT    NOT NULL,work_id_0 TEXT NOT NULL,motor                INT    NOT NULL,lifting_columns      INT    NOT NULL,accessory_package    INT    NOT NULL,work_id_1 TEXT NOT NULL,table_leg            INT    NOT NULL,transmission         INT    NOT NULL,instructions         INT    NOT NULL,work_id_2 TEXT NOT NULL,work_id_3 TEXT NOT NULL);

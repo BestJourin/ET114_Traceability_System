@@ -1,0 +1,77 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Build",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo-Build-06c5de05d10dcff1d738.json",
+					"name" : "demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo_autogen-Build-4268fdf3b81f1d829ddc.json",
+					"name" : "demo_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ext-yaml-cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ext-yaml-cpp-Build-9d5e9b048abdb2fbd3a4.json",
+					"name" : "ext-yaml-cpp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bj/workspace/opensource/ScholarShip/Paddle-X86/cpu/demo/build",
+		"source" : "/home/bj/workspace/opensource/ScholarShip/Paddle-X86/cpu/demo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
